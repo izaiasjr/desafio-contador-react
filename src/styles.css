@@ -1,0 +1,42 @@
+.master {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.btnOne {
+  width: 20%;
+  background-color: silver;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btnOne:hover {
+  background-color: red;
+  color: white;
+  transform: scale(0.9);
+}
+
+.btnTwo {
+  width: 20%;
+  background-color: silver;
+  color: forestgreen;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btnTwo:hover {
+  background-color: forestgreen;
+  color: white;
+  transform: scale(0.9);
+}
